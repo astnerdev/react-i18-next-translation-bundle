@@ -1,0 +1,22 @@
+{
+  "name": "mastox/react-i18-next-translation-bundle",
+  "description": "A Symfony bundle for react-i18next",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christoph Astner",
+      "email": "mastox@live.de"
+    }
+  ],
+  "require": {
+    "php": "7.3.*",
+    "ext-simplexml": "*",
+    "symfony/framework-bundle": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mastox\\ReactI18NextTranslationBundle\\": ""
+    }
+  }
+}

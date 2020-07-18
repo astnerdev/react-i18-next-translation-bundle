@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing https://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="react_i18_next_translation" path="react_i18_next_translation/locales/{lng}/{ns}.json" methods="GET">
+        <default key="_controller">react_i18next_translation.controller.translation
+        </default>
+    </route>
+</routes>
